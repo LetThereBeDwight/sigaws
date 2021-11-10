@@ -14,7 +14,7 @@ defmodule Sigaws.Mixfile do
       version: @version,
       description: @description,
       package: package(),
-      elixir: "~> 1.4",
+      elixir: "~> 1.7",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -33,7 +33,7 @@ defmodule Sigaws.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:ex_doc, ">= 0.0.0", only: :dev},
+      {:ex_doc, "~> 0.19", only: :dev},
       {:fsm, "~> 0.3", only: :test},
       {:excoveralls, "~> 0.6", only: :test},
       {:inch_ex, "~> 0.5", only: [:dev, :test]}
