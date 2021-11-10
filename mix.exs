@@ -5,13 +5,12 @@ defmodule Sigaws.Mixfile do
   @description """
   An Elixir library to sign and verify HTTP requests using AWS Signature V4.
   """
-  @source_url "https://github.com/handnot2/sigaws"
-  @blog_url "https://handnot2.github.io/blog/elixir/aws-signature-sigaws"
+  @source_url "https://github.com/LetThereBeDwight/sigaws_otp_24"
   @test_suite_url "http://docs.aws.amazon.com/general/latest/gr/signature-v4-test-suite.html"
 
   def project do
     [
-      app: :sigaws,
+      app: :sigaws_otp_24,
       version: @version,
       description: @description,
       package: package(),
@@ -43,12 +42,11 @@ defmodule Sigaws.Mixfile do
 
   defp package do
     [
-      maintainers: ["handnot2"],
+      maintainers: ["lettherebedwight"],
       files: ["config", "lib", "LICENSE", "mix.exs", "README.md"],
       licenses: ["MIT"],
       links: %{
         "GitHub" => @source_url,
-        "Blog" => @blog_url,
         "AWS Signature V4 Test Suite" => @test_suite_url
       }
     ]
