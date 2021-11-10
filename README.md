@@ -2,11 +2,13 @@
 
 An Elixir library to sign and verify HTTP requests using AWS Signature V4.
 
+Forked from [this library](https://github.com/handnot2/sigaws) and updated to add OTP 24 support
+
 [![Inline docs](http://inch-ci.org/github/handnot2/sigaws.svg)](http://inch-ci.org/github/handnot2/sigaws)
 
 ## Installation
 
-This package can be installed by adding `sigaws` to your list of dependencies
+This package can be installed by adding `sigaws_otp_24` to your list of dependencies
 in `mix.exs`:
 
 ```elixir
@@ -17,9 +19,7 @@ end
 
 ## Documentation
 
-+ [Blog](https://handnot2.github.io/blog/elixir/aws-signature-sigaws)
-+ [Module Doc](https://hexdocs.pm/sigaws)
-+ [Plug built using this](https://hexdocs.pm/plug_sigaws)
++ [Module Doc](https://hexdocs.pm/sigaws_otp_24)
 
 ## Examples
 
