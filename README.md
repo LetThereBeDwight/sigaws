@@ -11,7 +11,7 @@ in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:sigaws_otp_24, "~> 0.7"}]
+  [{:sigaws_otp_24, "~> 1.0"}]
 end
 ```
 
